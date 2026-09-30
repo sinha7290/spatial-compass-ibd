@@ -1,0 +1,19 @@
+# Data — never commit. GSE234713 is public; download with scripts/download_GSE234713.sh
+RAW/
+data/
+*.csv.gz
+*_exprMat_file.csv
+*_tx_file.csv
+GSE234713_CosMx_normalized_matrix.txt
+GSE234713_CosMx_annotation.csv
+*.jpg
+*.tif
+*.tiff
+
+# Notebook / python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+env/
